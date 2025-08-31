@@ -8,7 +8,7 @@ public:
         
         for(int i = 0; i <= 30; i++) {
             
-            //cout<<" ans "<<ans <<endl;
+            
             if(ans == n)
             {
                 return true;
@@ -17,6 +17,7 @@ public:
             ans = ans * 2;   
             
         }
+        cout << "ans is :" << ans << endl;
         return false;
     }
 };
